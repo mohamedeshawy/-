@@ -14,6 +14,7 @@
 		81EE12912023389C00659466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EE128F2023389C00659466 /* LaunchScreen.storyboard */; };
 		81EE129C2023389C00659466 /* WaterComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE129B2023389C00659466 /* WaterComTests.swift */; };
 		81EE12A72023389C00659466 /* WaterComUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE12A62023389C00659466 /* WaterComUITests.swift */; };
+		81EE12B7202391CF00659466 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE12B6202391CF00659466 /* PersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		81EE12A22023389C00659466 /* WaterComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EE12A62023389C00659466 /* WaterComUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterComUITests.swift; sourceTree = "<group>"; };
 		81EE12A82023389C00659466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EE12B6202391CF00659466 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				81EE12862023389C00659466 /* AppDelegate.swift */,
 				81EE12882023389C00659466 /* ViewController.swift */,
+				81EE12B6202391CF00659466 /* PersonViewController.swift */,
 				81EE128A2023389C00659466 /* Main.storyboard */,
 				81EE128D2023389C00659466 /* Assets.xcassets */,
 				81EE128F2023389C00659466 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81EE12892023389C00659466 /* ViewController.swift in Sources */,
+				81EE12B7202391CF00659466 /* PersonViewController.swift in Sources */,
 				81EE12872023389C00659466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				81EE12AD2023389C00659466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81EE12AE2023389C00659466 /* Build configuration list for PBXNativeTarget "WaterComTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				81EE12B02023389C00659466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81EE12B12023389C00659466 /* Build configuration list for PBXNativeTarget "WaterComUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				81EE12B32023389C00659466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
