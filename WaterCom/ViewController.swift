@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         self.loginView.transform = CGAffineTransform(rotationAngle: CGFloat.pi/4*7)
         self.loginLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi*2 - CGFloat.pi/4*7)
         self.loginImage.transform = CGAffineTransform(rotationAngle: CGFloat.pi*2 - CGFloat.pi/4*7)
-        let font = UIFont.systemFont(ofSize: 22)
+        let font = UIFont.systemFont(ofSize: 20)
         segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .normal)
         segmentedControl.setTitleTextAttributes([NSFontAttributeName: font],
                                                 for: .normal)

@@ -19,7 +19,8 @@ class PersonViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.bottleImage.transform = CGAffineTransform(rotationAngle: CGFloat.pi/4*7)
         self.carImage.transform = CGAffineTransform(rotationAngle: CGFloat.pi/4)
-        let font = UIFont.systemFont(ofSize: 22)
+        let font = UIFont.systemFont(ofSize: 20)
+        segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .normal)
         segmentedControl.setTitleTextAttributes([NSFontAttributeName: font],
                                                 for: .normal)
     }

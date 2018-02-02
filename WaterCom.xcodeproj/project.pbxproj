@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81CC0F5F202507B500AD7FAB /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC0F5E202507B500AD7FAB /* ContactUs.swift */; };
+		81D2949D2024B6AD0053E632 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D2949C2024B6AD0053E632 /* SWRevealViewController.m */; };
+		81D2949F2024B7390053E632 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2949E2024B7390053E632 /* SideMenu.swift */; };
+		81D294A12024DC760053E632 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D294A02024DC760053E632 /* Reservation.swift */; };
+		81D294A52024E2210053E632 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D294A42024E2210053E632 /* MyCell.swift */; };
+		81D294A72024F18A0053E632 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D294A62024F18A0053E632 /* About.swift */; };
+		81E8819E202499AD00974561 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8819D202499AD00974561 /* Profile.swift */; };
 		81EE12872023389C00659466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE12862023389C00659466 /* AppDelegate.swift */; };
 		81EE12892023389C00659466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE12882023389C00659466 /* ViewController.swift */; };
 		81EE128C2023389C00659466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EE128A2023389C00659466 /* Main.storyboard */; };
@@ -35,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81CC0F5E202507B500AD7FAB /* ContactUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
+		81D2949A2024B6AC0053E632 /* WaterCom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterCom-Bridging-Header.h"; sourceTree = "<group>"; };
+		81D2949B2024B6AD0053E632 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		81D2949C2024B6AD0053E632 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		81D2949E2024B7390053E632 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		81D294A02024DC760053E632 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		81D294A42024E2210053E632 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		81D294A62024F18A0053E632 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		81E8819D202499AD00974561 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		81EE12832023389C00659466 /* WaterCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EE12862023389C00659466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EE12882023389C00659466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81E8819C2024976A00974561 /* sideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				81D2949B2024B6AD0053E632 /* SWRevealViewController.h */,
+				81D2949C2024B6AD0053E632 /* SWRevealViewController.m */,
+				81E8819D202499AD00974561 /* Profile.swift */,
+				81D2949A2024B6AC0053E632 /* WaterCom-Bridging-Header.h */,
+				81D2949E2024B7390053E632 /* SideMenu.swift */,
+				81D294A02024DC760053E632 /* Reservation.swift */,
+				81D294A42024E2210053E632 /* MyCell.swift */,
+				81D294A62024F18A0053E632 /* About.swift */,
+				81CC0F5E202507B500AD7FAB /* ContactUs.swift */,
+			);
+			name = sideMenu;
+			sourceTree = "<group>";
+		};
 		81EE127A2023389C00659466 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +131,7 @@
 		81EE12852023389C00659466 /* WaterCom */ = {
 			isa = PBXGroup;
 			children = (
+				81E8819C2024976A00974561 /* sideMenu */,
 				81EE12862023389C00659466 /* AppDelegate.swift */,
 				81EE12882023389C00659466 /* ViewController.swift */,
 				81EE12B6202391CF00659466 /* PersonViewController.swift */,
@@ -196,6 +229,7 @@
 				TargetAttributes = {
 					81EE12822023389C00659466 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					81EE12962023389C00659466 = {
@@ -262,8 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CC0F5F202507B500AD7FAB /* ContactUs.swift in Sources */,
 				81EE12892023389C00659466 /* ViewController.swift in Sources */,
+				81E8819E202499AD00974561 /* Profile.swift in Sources */,
+				81D2949D2024B6AD0053E632 /* SWRevealViewController.m in Sources */,
+				81D2949F2024B7390053E632 /* SideMenu.swift in Sources */,
 				81EE12B7202391CF00659466 /* PersonViewController.swift in Sources */,
+				81D294A52024E2210053E632 /* MyCell.swift in Sources */,
+				81D294A12024DC760053E632 /* Reservation.swift in Sources */,
+				81D294A72024F18A0053E632 /* About.swift in Sources */,
 				81EE12872023389C00659466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,10 +459,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WaterCom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Salil.WaterCom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterCom/WaterCom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,10 +474,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WaterCom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Salil.WaterCom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaterCom/WaterCom-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
