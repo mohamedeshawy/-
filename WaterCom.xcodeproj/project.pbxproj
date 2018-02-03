@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8123710E20264E7A00FEC125 /* CompanyRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123710D20264E7A00FEC125 /* CompanyRegister.swift */; };
+		8139AC9C202603FC00ECC379 /* Profits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139AC9B202603FC00ECC379 /* Profits.swift */; };
+		81515D742025DE810095FA7F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81515D732025DE810095FA7F /* Login.swift */; };
 		81CC0F5F202507B500AD7FAB /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC0F5E202507B500AD7FAB /* ContactUs.swift */; };
 		81D2949D2024B6AD0053E632 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D2949C2024B6AD0053E632 /* SWRevealViewController.m */; };
 		81D2949F2024B7390053E632 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2949E2024B7390053E632 /* SideMenu.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8123710D20264E7A00FEC125 /* CompanyRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyRegister.swift; sourceTree = "<group>"; };
+		8139AC9B202603FC00ECC379 /* Profits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profits.swift; sourceTree = "<group>"; };
+		81515D732025DE810095FA7F /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		81CC0F5E202507B500AD7FAB /* ContactUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
 		81D2949A2024B6AC0053E632 /* WaterCom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterCom-Bridging-Header.h"; sourceTree = "<group>"; };
 		81D2949B2024B6AD0053E632 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -92,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8139AC9D2026095200ECC379 /* Profits */ = {
+			isa = PBXGroup;
+			children = (
+				8139AC9B202603FC00ECC379 /* Profits.swift */,
+			);
+			name = Profits;
+			sourceTree = "<group>";
+		};
 		81E8819C2024976A00974561 /* sideMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +118,7 @@
 				81D294A42024E2210053E632 /* MyCell.swift */,
 				81D294A62024F18A0053E632 /* About.swift */,
 				81CC0F5E202507B500AD7FAB /* ContactUs.swift */,
+				8139AC9D2026095200ECC379 /* Profits */,
 			);
 			name = sideMenu;
 			sourceTree = "<group>";
@@ -133,12 +148,14 @@
 			children = (
 				81E8819C2024976A00974561 /* sideMenu */,
 				81EE12862023389C00659466 /* AppDelegate.swift */,
-				81EE12882023389C00659466 /* ViewController.swift */,
 				81EE12B6202391CF00659466 /* PersonViewController.swift */,
+				81515D732025DE810095FA7F /* Login.swift */,
+				81EE12882023389C00659466 /* ViewController.swift */,
 				81EE128A2023389C00659466 /* Main.storyboard */,
 				81EE128D2023389C00659466 /* Assets.xcassets */,
 				81EE128F2023389C00659466 /* LaunchScreen.storyboard */,
 				81EE12922023389C00659466 /* Info.plist */,
+				8123710D20264E7A00FEC125 /* CompanyRegister.swift */,
 			);
 			path = WaterCom;
 			sourceTree = "<group>";
@@ -297,14 +314,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CC0F5F202507B500AD7FAB /* ContactUs.swift in Sources */,
+				8123710E20264E7A00FEC125 /* CompanyRegister.swift in Sources */,
 				81EE12892023389C00659466 /* ViewController.swift in Sources */,
 				81E8819E202499AD00974561 /* Profile.swift in Sources */,
+				8139AC9C202603FC00ECC379 /* Profits.swift in Sources */,
 				81D2949D2024B6AD0053E632 /* SWRevealViewController.m in Sources */,
 				81D2949F2024B7390053E632 /* SideMenu.swift in Sources */,
 				81EE12B7202391CF00659466 /* PersonViewController.swift in Sources */,
 				81D294A52024E2210053E632 /* MyCell.swift in Sources */,
 				81D294A12024DC760053E632 /* Reservation.swift in Sources */,
 				81D294A72024F18A0053E632 /* About.swift in Sources */,
+				81515D742025DE810095FA7F /* Login.swift in Sources */,
 				81EE12872023389C00659466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

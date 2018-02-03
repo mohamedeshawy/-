@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .normal)
         segmentedControl.setTitleTextAttributes([NSFontAttributeName: font],
                                                 for: .normal)
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.personAction))
-        self.personView.addGestureRecognizer(gesture)
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.loginAction))
+        self.loginView.addGestureRecognizer(gesture)
 
         
     }
@@ -42,7 +42,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func personAction(sender:UITapGestureRecognizer){
+    func loginAction(sender:UITapGestureRecognizer){
+        performSegue(withIdentifier: "login", sender: self)
         
     }
 
