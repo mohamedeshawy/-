@@ -32,8 +32,14 @@ class ViewController: UIViewController {
         segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .normal)
         segmentedControl.setTitleTextAttributes([NSFontAttributeName: font],
                                                 for: .normal)
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.loginAction))
-        self.loginView.addGestureRecognizer(gesture)
+        let gestureLogin = UITapGestureRecognizer(target: self, action:  #selector (self.loginAction))
+        self.loginView.addGestureRecognizer(gestureLogin)
+        
+        let gesturePerson = UITapGestureRecognizer(target: self, action:  #selector (self.personAction))
+        self.personView.addGestureRecognizer(gesturePerson)
+        
+        let gestureCompany = UITapGestureRecognizer(target: self, action:  #selector (self.companyAction))
+        self.companyView.addGestureRecognizer(gestureCompany)
 
         
     }
@@ -46,6 +52,15 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "login", sender: self)
         
     }
+    func personAction(sender:UITapGestureRecognizer){
+        performSegue(withIdentifier: "registerPerson", sender: self)
+        
+    }
+    func companyAction(sender:UITapGestureRecognizer){
+        performSegue(withIdentifier: "registerCompany", sender: self)
+        
+    }
+    
 
     @IBAction func indexChange(_ sender: Any) {
         switch segmentedControl.selectedSegmentIndex {
